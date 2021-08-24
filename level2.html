@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Level 2</title>
+  
+</head>
+<body>
+  
+  <audio id="wrongAudio">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="correctAudio">
+    <source src="Bing-sound.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <h1><span><i class="fa fa-child" aria-hidden="true"></i></span> Kidz Town</h1>
+        <nav>
+          <ul>
+            <li><a href="synonyms.html">ENGLISH</a></li>
+            <li class="current"><a href="level1.html">MATH  <span><i class="fa fa-flag-checkered" aria-hidden="true"></i></span></a></li>
+            <li><a href="level1.html">Level 1</a></li>
+            <li class="current"><a href="level2.html"><span><i class="fa fa-map-pin" aria-hidden="true"></i></span> Level 2</a></li>
+            <li><a href="level3.html">Level 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="instructions">
+    <h1 >Choose The Correct Answer</h1>
+  </div>
+  
+  <div class="wrapper">
+      <div class="equation">
+
+        <h1  id="num1" class="a"></h1>
+        <h1 id="sign" class="b">+</h1>
+        <h1  id="num2" class="c">1</h1>
+        <h1  class="d">=</h1>
+        <h1  class="e">?</h1>
+      </div>
+
+      <div class="answer-options">
+
+        <div class="opt1 options">
+          <h1 id="option1">1</h1>
+        </div>
+        <div class="opt2 options" >
+          <h1 id="option2">2</h1>
+        </div>
+        <div class="opt3 options">
+          <h1 id="option3">3</h1>
+        </div>
+      </div>
+  </div>
+
+  <script src="level2.js"></script>
+  
+</body>
+</html>
